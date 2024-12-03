@@ -1,0 +1,19 @@
+@use '../tools/index';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: none;
+
+  font: 700 14px / 24px Play, sans-serif;
+  color: index.$primary;
+}
+
+body {
+  background-color: index.$background-black;
+}

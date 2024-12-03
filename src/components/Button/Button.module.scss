@@ -1,0 +1,31 @@
+@use '../../scss/tools/index';
+
+.btn {
+  margin: 0;
+  padding: 16px 48px;
+
+  border: 0;
+  background-color: transparent;
+
+  font-size: 18px;
+  line-height: 24px;
+
+  border-radius: 28px;
+
+  color: index.$white;
+
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  cursor: pointer;
+
+  background-color: index.$primary;
+
+  &:disabled {
+    color: index.$grey-light !important;
+    background-color: index.$grey-light !important;
+  }
+
+  &:hover {
+    color: index.$primary;
+    background-color: index.$white;
+  }
+}

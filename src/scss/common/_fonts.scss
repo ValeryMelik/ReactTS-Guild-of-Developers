@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Play';
+  font-display: swap;
+  src: local('Play Bold'), local('Play-Bold'),
+    url('/ReactTS-Guild-of-Developers/fonts/Play-Bold.woff2') format('woff2'),
+    url('/ReactTS-Guild-of-Developers/fonts/Play-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  font-display: swap;
+  src: local('Play Regular'), local('Play-Regular'),
+    url('/ReactTS-Guild-of-Developers/fonts/Play-Regular.woff2') format('woff2'),
+    url('/ReactTS-Guild-of-Developers/fonts/Play-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-display: swap;
+  src: local('OpenSans Bold'), local('OpenSans-Bold'),
+    url('/ReactTS-Guild-of-Developers/fonts/OpenSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}

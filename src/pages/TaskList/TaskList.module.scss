@@ -1,0 +1,19 @@
+.taskList {
+  height: calc(100vh - 80px);
+  overflow: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.taskList__loadMore {
+  text-align: center;
+  padding: 1rem;
+}
